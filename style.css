@@ -1,0 +1,96 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @EslamAmin151 Sign out
+0
+0 0 Unclechamps/HighOnCodingDOM
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+HighOnCodingDOM/HOC.css
+c081bb9  on May 22
+@Unclechamps Unclechamps final versions
+
+115 lines (92 sloc)  1.53 KB
+body {
+  background-color: white;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+.header {
+  background-color: #4c8bef;
+  width: 100%;
+  color: white;
+  display: inline-block;
+  height: 75px;
+}
+
+.header h1 {
+  margin: 15px 30px;
+  font-size: 2.5em;
+  float: left;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+#home {
+  font-weight: 700;
+}
+
+.title {
+  width: 90%;
+  background-color: #b4b9c1;
+  margin: auto;
+
+}
+
+.title h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 2em;
+  color: #5f697a;
+}
+
+.title p {
+  padding: 0 15px 15px 15px;
+}
+
+.articles {
+  width: 90%;
+  margin:auto;
+}
+
+.articles h4 {
+  color: blue;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.comments {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.comments span {
+  padding-right: 10px;
+}
