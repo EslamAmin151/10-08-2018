@@ -1,85 +1,80 @@
-var container = document.getElementById('container')
+let container = document.getElementById("container")
 
-header = document.createElement("div")
+let header = document.createElement("div")
 header.className = "header"
 container.appendChild(header)
 
-h1header = document.createElement("h1")
-header.appendChild(h1header)
-h1header.innerHTML = "HighOnCoding"
+let h2header = document.createElement("h2")
+header.appendChild(h2header)
+h2header.innerHTML = "HighOnCoding"
 
-menu = document.createElement("ul")
+let menu = document.createElement("ui")
 header.appendChild(menu)
 
-homeLink = document.createElement("li")
-menu.appendChild(homeLink)
+let liitem1 = document.createElement("li")
+menu.appendChild(liitem1)
+liitem1.innerHTML = "Home"
 
-homeLinkURL = document.createElement("a")
-homeLink.appendChild(homeLinkURL)
-homeLinkURL.href = "index.html"
-homeLinkURL.innerHTML = "Home"
-homeLinkURL.id = "home"
+let liitem2 = document.createElement("li")
+menu.appendChild(liitem2)
+liitem2.innerHTML = "Categories"
 
-categoriesLink = document.createElement("li")
-menu.appendChild(categoriesLink)
+let article = document.createElement("div")
+article.className = "articlecontent"
+container.appendChild(article)
 
-categoriesLinkURL = document.createElement("a")
-categoriesLink.appendChild(categoriesLinkURL)
-categoriesLinkURL.href = "categories.html"
-categoriesLinkURL.innerHTML = "Categories"
+let label = document.createElement("h3")
+article.appendChild(label)
+label.innerHTML = "Curse of the Current Reviews"
 
-curse = document.createElement("div")
-curse.className = "curse"
-container.appendChild(curse)
+let content = document.createElement("p")
+label.appendChild(content)
+content.innerHTML = "When you want to buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot and reviews."
 
-curseTitle = document.createElement("h2")
-curse.appendChild(curseTitle)
-curseTitle.innerHTML = "Curse of the Current Reviews"
+let article2 = document.createElement("div")
+article2.className = "article22"
+container.appendChild(article2)
 
-curseText = document.createElement("p")
-curse.appendChild(curseText)
-curseText.innerHTML = "When you want to buy any application from the Apple iTunes store you have more choices than you can handle. Most of the users scroll past the application description completely avoiding it like ads displayed on the right column of your webpage. Their choice is dependent on three important factors price, screenshot and reviews."
+let welcome = document.createElement("h3")
+article2.appendChild(welcome)
+welcome.innerHTML ="Hello WatchKit"
 
-articles = document.createElement("div")
-articles.className = "articles"
-container.appendChild(articles)
+let concept = document.createElement("p")
+article2.appendChild(concept)
+concept.innerHTML = "Last month Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit framework enable the developers to create Apple Watch applications. In this article we are going to focus on the basics of getting started with the WatchKit framework and developing apps for the Apple Watch."
 
-article_title1 = document.createElement("h4")
-articles.appendChild(article_title1)
-article_title1.innerHTML = "Hello WatchKit"
+let peopleReaction = document.createElement("ui")
+peopleReaction.className = "notification"
+container.appendChild(peopleReaction)
 
-article_content1 = document.createElement("p")
-articles.appendChild(article_content1)
-article_content1.innerHTML = "Last month Apple released the anticipated WatchKit Framework for developers in the form of iOS 8.2 beta SDK release. The WatchKit framework enable the developers to create Apple Watch applications. In this article we are going to focus on the basics of getting started with the WatchKit framework and developing apps for the Apple Watch."
+let notificationcomment = document.createElement("li")
+peopleReaction.append(notificationcomment)
+notificationcomment.innerHTML = "12 Comments"
 
-article_comments1 = document.createElement("p")
-article_comments1.className = "comments"
-articles.appendChild(article_comments1)
+let notificationlike = document.createElement("li")
+peopleReaction.append(notificationlike)
+notificationlike.innerHTML = "124 like"
 
-span1 = document.createElement("span")
-article_comments1.appendChild(span1)
-span1.innerHTML = "12 comments"
+let article3 = document.createElement("div")
+article3.className = "article23"
+container.appendChild(article3)
 
-span2 = document.createElement("span")
-article_comments1.appendChild(span2)
-span2.innerHTML = "124 likes"
+let welcome1 = document.createElement("h3")
+article3.appendChild(welcome1)
+welcome1.innerHTML ="Introduction to Swift"
 
-article_title2 = document.createElement("h4")
-articles.appendChild(article_title2)
-article_title2.innerHTML = "Introduction to Swift"
+let concept1 = document.createElement("p")
+article3.appendChild(concept1)
+concept1.innerHTML = "Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications. Swift is a fairly new language and still in development but it clearly reflects the intentions and the future direction. This article will revolve around the basic concepts in the Swift language and how you can get started."
 
-article_content2 = document.createElement("p")
-articles.appendChild(article_content2)
-article_content2.innerHTML = "Swift is a modern programming language developed by Apple to create the next generation of iOS and OSX applications. Swift is a fairly new language and still in development but it clearly reflects the intentions and the future direction. This article will revolve around the basic concepts in the Swift language and how you can get started."
+let peopleReaction2 = document.createElement("ui")
+peopleReaction2.className = "notification1"
+container.appendChild(peopleReaction2)
 
-article_comments2 = document.createElement("p")
-article_comments2.className = "comments"
-articles.appendChild(article_comments2)
+let notificationcomment2 = document.createElement("li")
+peopleReaction2.append(notificationcomment2)
+notificationcomment2.innerHTML = "15 Comments"
 
-span3 = document.createElement("span")
-article_comments2.appendChild(span3)
-span3.innerHTML = "15 comments"
-
-span4 = document.createElement("span")
-article_comments2.appendChild(span4)
-span4.innerHTML = "45 likes"
+let notificationlike2 = document.createElement("li")
+peopleReaction2.append(notificationlike2)
+notificationlike2.innerHTML = "45 like"
